@@ -1,0 +1,12 @@
+Insert into login_credential values ('test', 'test', 'test')
+Delete from login_credential where password = 'test'
+Insert into login_credential values ('Dav', 'sd23','hr')
+Insert into login_credential values ('test','test','test')
+Delete from login_credential where role = 'test'
+Insert into login_credential values ('test', 'test', 'test')
+Delete from login_credential where username = 'test'
+Insert into login_credential (username, password, role) VALUES ('test', 'test', 'test')
+Insert into emp_pr (id, address, phone_no, salary) VALUES (23, '33-33-33', '234', 92222)
+2023/12/05 16:31:21	Insert into emp_pr (id, address, phone_no, salary) VALUES (10, '833 f', '22-22-22', 932333)
+2023/12/05 16:38:02	Insert into se_data (id, name, projectname, supervisor, deadline) VALUES (12, 'Sat', 'Project002', 'John', '2023-10-15')
+2023/12/07 11:40:42	Insert into login_credential (username, password, role) VALUES ('tsss', 'sfdg', 'se')
